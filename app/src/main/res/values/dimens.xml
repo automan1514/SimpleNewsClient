@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--全局titlebar的高度-->
+    <dimen name="global_titlebar_height">44dp</dimen>
+</resources>

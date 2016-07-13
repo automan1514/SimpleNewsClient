@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">demo</string>
+
+    <!--新闻列表页用到的字符串资源-->
+    <string name="newslist_title">凤凰新闻</string>
+    <string name="newslist_bottom_tab1">国内</string>
+    <string name="newslist_bottom_tab2">国际</string>
+    <string name="newslist_bottom_tab3">关心</string>
+    <string name="newslist_bottom_tab4">我的</string>
+    <string name="newslist_itemtext">我是国内新闻</string>
+</resources>

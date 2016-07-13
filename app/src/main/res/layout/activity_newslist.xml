@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/global_titlebar" />
+
+    <com.lxf.demo.customview.NoScrollViewPager
+        android:id="@+id/newslist_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/newslist_bottom_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/global_titlebar_height"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/newslist_bottom_radiobtn_incountry"
+            style="@style/newslist_bottom_radiobtn"
+            android:checked="true"
+            android:text="@string/newslist_bottom_tab1" />
+
+        <RadioButton
+            android:id="@+id/newslist_bottom_radiobtn_outcountry"
+            style="@style/newslist_bottom_radiobtn"
+            android:text="@string/newslist_bottom_tab2" />
+
+        <RadioButton
+            android:id="@+id/newslist_bottom_radiobtn_care"
+            style="@style/newslist_bottom_radiobtn"
+            android:text="@string/newslist_bottom_tab3" />
+
+        <RadioButton
+            android:id="@+id/newslist_bottom_radiobtn_mine"
+            style="@style/newslist_bottom_radiobtn"
+            android:text="@string/newslist_bottom_tab4" />
+    </RadioGroup>
+</LinearLayout>
