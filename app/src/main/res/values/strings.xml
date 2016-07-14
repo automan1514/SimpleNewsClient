@@ -7,5 +7,12 @@
     <string name="newslist_bottom_tab2">国际</string>
     <string name="newslist_bottom_tab3">关心</string>
     <string name="newslist_bottom_tab4">我的</string>
-    <string name="newslist_itemtext">我是国内新闻</string>
+    <string name="newslist_itemtext">我是国内新闻条目</string>
+    <string name="newslist_headimg_desc">头条：联合国关注南海问题，潘基文主张和平解决</string>
+    <string name="newslist_outcountrynews">我是国际新闻页</string>
+    <string name="newslist_care">我是关心页面</string>
+    <string name="newslist_mine">我是我的页面</string>
+
+    <!--新闻详情页用到的字符串资源-->
+    <string name="newsdetail_desc">我是新闻详情页面</string>
 </resources>

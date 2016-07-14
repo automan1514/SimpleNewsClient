@@ -73,6 +73,8 @@ public class NewsListActivity extends BaseActivity implements RadioGroup.OnCheck
 
         //给viewPager设置适配器，展示视图内容
         viewPager.setAdapter(noScrollViewPagerAdapter);
+        inCountryPager.initView();
+        inCountryPager.initData();
     }
 
     private void initListener(){

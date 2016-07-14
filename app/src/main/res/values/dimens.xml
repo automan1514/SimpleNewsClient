@@ -3,4 +3,7 @@
 
     <!--全局titlebar的高度-->
     <dimen name="global_titlebar_height">44dp</dimen>
+
+    <!--国内新闻页头图的高度-->
+    <dimen name="incountrynews_headimg_height">180dp</dimen>
 </resources>
